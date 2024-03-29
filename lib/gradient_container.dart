@@ -1,4 +1,6 @@
+import 'package:dice_app/dice_roller.dart';
 import 'package:flutter/material.dart';
+import './dice_roller.dart';
 import './styled_text.dart';
 
 const startAlignment = Alignment.topLeft;
@@ -25,7 +27,7 @@ class GradientWidget extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: 
+      child: DiceRoller(),
     );
   }
 }
